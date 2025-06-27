@@ -10,7 +10,7 @@ import pickle
 
 # Load model and feature order
 model = pickle.load(open('lung_model (1).sav', "rb"))
-feature_order = pickle.load(open('C:/internship/sav/feature_order.pkl', "rb"))
+feature_order = pickle.load(open('feature_order.pkl', "rb"))
 
 # UI
 st.set_page_config(page_title="Lung Cancer Survival Predictor")
