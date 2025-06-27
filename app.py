@@ -9,7 +9,7 @@ import streamlit as st
 import pickle
 
 # Load model and feature order
-model = pickle.load(open('C:/internship/sav/lung_model (1).sav', "rb"))
+model = pickle.load(open('lung_model (1).sav', "rb"))
 feature_order = pickle.load(open('C:/internship/sav/feature_order.pkl', "rb"))
 
 # UI
